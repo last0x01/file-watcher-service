@@ -65,5 +65,3 @@ sc delete FileMonitoringService
 [2026-01-16 14:10:10] File detected: C:\FileMonitoring\Source\file1.txt
 [2026-01-16 14:10:11] File moved: C:\FileMonitoring\Source\file1.txt -> C:\FileMonitoring\Destination\3f4d1e2a-d726.txt
 [2026-01-16 14:11:15] Service Stopped.
-
-
