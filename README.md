@@ -1,4 +1,4 @@
-# 🗂️ FileMonitoringService
+# 🗂️ File Monitoring Service
 
 [![.NET](https://img.shields.io/badge/.NET-4.7+-blue)](https://dotnet.microsoft.com/)
 [![Windows Service](https://img.shields.io/badge/Windows%20Service-Ready-green)]()
