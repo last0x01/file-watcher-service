@@ -39,33 +39,31 @@ Automated Windows Service for monitoring a folder, renaming files with GUIDs, an
 ### Create Service
 ```cmd
 sc create FileMonitoringService binPath= "C:\Path\To\FileMonitoringService.exe" start= auto
+```
 
-Start Service
+### Start Service
+```cmd
 sc start FileMonitoringService
+```
 
-Stop Service
+### Stop Service
+```cmd
 sc stop FileMonitoringService
+```
 
-Delete Service
+### Delete Service
+```cmd
 sc delete FileMonitoringService
 
 ```
 
 ## 📄 Logging
 
-Sample output:
-
+### Sample output:
+```text
 [2026-01-16 14:10:00] Service Started.
 [2026-01-16 14:10:10] File detected: C:\FileMonitoring\Source\file1.txt
 [2026-01-16 14:10:11] File moved: C:\FileMonitoring\Source\file1.txt -> C:\FileMonitoring\Destination\3f4d1e2a-d726.txt
 [2026-01-16 14:11:15] Service Stopped.
 
-## 🗂 Project Structure
-FileMonitoringService/
-│
-├─ FileMonitoringService.cs
-├─ Program.cs
-├─ ProjectInstaller.cs
-├─ App.config
-└─ README.md
 
